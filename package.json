@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "vue-cli plugin to set up commitizen and semantic release.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandogelin/vue-cli-plugin-cz.git"
+  },
   "scripts": {
     "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1",
