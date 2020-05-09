@@ -28,6 +28,10 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "@semantic-release/npm": {
+          "npmPublish": false,
+          "tarballDir": "dist"
     }
   }
 }
