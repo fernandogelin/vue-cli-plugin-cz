@@ -14,6 +14,7 @@ If you choose to add semantic release, the plugin will:
 
 You'll be asked if you want to add semantic release. Selecting `no` will only set up commitizen.
 
-## Usage
+## Scripts
 
-`npm run commit`
+- `commit`
+- `release`
