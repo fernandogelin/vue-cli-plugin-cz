@@ -20,13 +20,9 @@ module.exports = (api, options) => {
         devDependencies: {
           "semantic-release": "^17.0.7"
         },
-        config: {
-          "release": {
-            "branches": ["master", "next"]
-          }
-        },
         scripts: {
-          "release": "semantic-release"
+          "release": "semantic-release",
+          "changelog": "semantic-release --generate-notes"
         }
       })
     }
