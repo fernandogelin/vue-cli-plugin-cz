@@ -20,7 +20,7 @@
   "author": "Fernando Gelin",
   "license": "MIT",
   "devDependencies": {
-    "@semantic-release/npm": "6.0.0-beta.3",
+    "@semantic-release/npm": "^7.0.5",
     "cz-conventional-changelog": "^3.2.0",
     "git-cz": "^4.3.1",
     "semantic-release": "^17.0.7"
