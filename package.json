@@ -15,7 +15,10 @@
   },
   "keywords": [
     "commitizen",
-    "conventional commits"
+    "conventional commits",
+    "semantic release",
+    "vue",
+    "github actions"
   ],
   "author": "Fernando Gelin",
   "license": "MIT",
