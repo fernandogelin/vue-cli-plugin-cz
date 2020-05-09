@@ -15,6 +15,7 @@ module.exports = (api, options) => {
     })
 
     if (options.addSemanticRelease) {
+      api.render('./template')
       api.extendPackage({
         devDependencies: {
           "semantic-release": "^17.0.7"
